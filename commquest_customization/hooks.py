@@ -242,3 +242,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Property Setter", "filters": [
+        ["doc_type", "in", ["Customer", "Address"]]
+    ]}
+]
